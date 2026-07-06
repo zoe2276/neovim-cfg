@@ -18,6 +18,8 @@ gh = function(x) return "https://github.com" .. x end
 -- load plugins
 require("plugins.autoclose")
 require("plugins.neo-tree")
+require("plugins.nvim-treesitter")
+require("plugins.rose-pine")
 require("plugins.telescope")
 require("plugins.which-key")
 
